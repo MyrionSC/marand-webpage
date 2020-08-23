@@ -1,9 +1,8 @@
 $(document).ready(() => {
-    alert("testing")
-
     // load templates
-    $("#main-nav").load("main-nav.html", null, (lala) => {
-        alert("load done")
-        console.log(lala)
-    })
+    $("#main-nav").load("/templates/main-nav.html")
+
+    // get url
+
+    // load content based on url
 })
